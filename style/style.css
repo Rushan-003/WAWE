@@ -15,6 +15,11 @@ ul {
     padding-left: 185px;
 }
 li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+
     padding: 0px 22.5px;
 }
 .header {
@@ -77,4 +82,23 @@ li {
 .flex_2 {
     display: flex;
     align-items: center;
+}
+
+.part_3 {
+    display: flex;
+    flex: 50% 50%;
+}
+.part_8 {
+    background-color: #F8F8F8;
+}
+
+footer {
+    background-color: #00B2A0;
+}
+
+a {
+    color: unset;
+}
+.x_1 {
+    background-image: url(/picture/background.png);
 }
