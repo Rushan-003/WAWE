@@ -37,7 +37,7 @@ section, footer {
 }
 
 section {
-    margin-top: 200px;
+    padding-top: 200px;
     
 }
 
@@ -111,4 +111,17 @@ a {
 }
 .x_1 {
     background-image: url(/picture/background-2.png);
+}
+
+.part_2 {
+    background-color: #F8F8F8;
+}
+
+h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #242121;
 }
