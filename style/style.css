@@ -181,3 +181,8 @@ h5 {
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+}
