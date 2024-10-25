@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="/style/normalize.css">
     <link rel="stylesheet" href="/style/style.css">
-    <title>Document</title>
+    <title>WAWE</title>
 </head>
 <body>
     <div class="header">
@@ -119,69 +119,72 @@
 
     <section>
         <h2>ГАЛЕРЕЯ</h2>
-        <div>
-            <p>ВСЕ</p>
-            <p>ТУРИСТЫ</p>
-            <p>ПРИРОДА</p>
-            <p>ПРОФИ</p>
-        </div>
-        <div>
-            <img src="picture/picture-1.png" alt="picture">
-            <img src="picture/picture-2.png" alt="picture">
-            <img src="picture/picture-3.png" alt="picture">
-            <img src="picture/picture-4.png" alt="picture">
-            <img src="picture/picture-5.png" alt="picture">
-            <img src="picture/picture-6.png" alt="picture">
+        <ul class="flex "> <!-- Пометочка -->
+            <li><a href="">ВСЕ</a></li>
+            <li><a href="">ТУРИСТЫ</a></li>
+            <li><a href="">ПРИРОДА</a></li>
+            <li><a href="">ПРОФИ</a></li>
+        </ul>
+        <div class="gallery">
+            <img class="elem_gallery-1" src="picture/picture-1.png" alt="picture">
+            <img class="elem_gallery" src="picture/picture-2.png" alt="picture">
+            <img class="elem_gallery" src="picture/picture-3.png" alt="picture">
+            <img class="elem_gallery" src="picture/picture-4.png" alt="picture">
+            <img class="elem_gallery" src="picture/picture-5.png" alt="picture">
+            <img class="elem_gallery" src="picture/picture-6.png" alt="picture">
         </div>
         <button id="button_1">ПОКАЗАТЬ ЕЩЕ</button>
     </section>
 
-    <section>
+    <section class="part_5">
         <h5>«Если сомневаешься – иди катайся.»</h5>
         <p>Нэт Янг, первый Чемпион Мира по сёрфингу</p>
     </section>
 
     <section>
         <img src="picture/video.png" alt="video">
-        <div>
+        <div class="block_video">
             <div>
-                <h5></h5>
-                <p>туристов</p>                
+                <h5 class="elem_video">450</h5>
+                <p class="text_video">туристов</p>                
             </div>
             <div>
-                <h5></h5>
-                <p>часов катания</p>  
+                <h5 class="elem_video">2500</h5>
+                <p class="text_video">часов катания</p>  
             </div>
             <div>
-                <h5></h5>
-                <p>проф. тренеров</p>  
+                <h5 class="elem_video">10</h5>
+                <p class="text_video">проф. тренеров</p>  
             </div>
             <div>
-                <h5></h5>
-                <p>дней в году</p>  
+                <h5 class="elem_video">365</h5>
+                <p class="text_video">дней в году</p>  
             </div>
 
         </div>
     </section>
 
-    <section>
+    <section class="">
         <h2>БЛОГ</h2>
-        <h5>ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР</h5>
-        <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
-        <div>
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="7.5" cy="7.5" r="7.5" fill="#00B2A0" />
-              </svg>
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
-              </svg>
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
-              </svg>
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
-              </svg>
+        <div class="x_2">
+            <h5>ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР</h5>
+            <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+            <div>
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="#00B2A0" />
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="white" />
+                </svg>
+            </div>            
         </div>
+
     </section>
 
     <section>
@@ -207,10 +210,10 @@
 
     <section class="part_8">
         <h2>ПАКЕТЫ УСЛУГ</h2>
-        <div>
-            <div>
+        <div class="services">
+            <div class="elem_services">
                 <h3>Стандарт</h3>
-                <ul>
+                <ul class="x_3">
                     <li>Проживание на вилле 6 ночей </li>
                     <li>Номер категории стандарт</li>
                     <li>Экипировка для обучения</li>
@@ -218,11 +221,11 @@
                     <li>Страховка</li>
                     <li>Вечеринка с угощениями и дискотекой</li>
                 </ul>
-                <p>450 $</p>
+                <p class="price">450 $</p>
             </div>
-            <div>
+            <div class="elem_services">
                 <h3>Все включено</h3>
-                <ul>
+                <ul class="x_3">
                     <li>Проживание на вилле 6 ночей</li>
                     <li>Номер категории люкс</li>
                     <li>Экипировка для обучения</li>
@@ -232,11 +235,11 @@
                     <li>Авиа перелет Тенерифе -Лансароте - Тенерифе </li>
                     <li>Завтраки на вилле</li>
                 </ul>
-                <p>950 $</p>
+                <p class="price">950 $</p>
             </div>
-            <div>
+            <div class="elem_services">
                 <h3>Профи</h3>
-                <ul>
+                <ul class="x_3">
                     <li>Проживание на вилле 8 ночей</li>
                     <li>Номер категории люкс</li>
                     <li>Экипировка для обучения</li>
@@ -246,7 +249,7 @@
                     <li>Авиа перелет Тенерифе -Лансароте - Тенерифе </li>
                     <li>Завтраки и ужины на вилле</li>
                 </ul>
-                <p>1450 $</p>
+                <p class="price">1450 $</p>
             </div>
         </div>
     </section>
@@ -263,7 +266,7 @@
                 <input type="text"><br>
                 <p>Оставьте сообщение, и мы свяжемся с Вами в ближайшее время</p>
                 <input type="text"><br>
-                <button>ОТПРАВИТЬ</button>
+                <button id="button_2">ОТПРАВИТЬ</button>
             </div>
             <div class="addres">
                 <p>Есть вопрос?<br> Вы можете связаться с нами:</p>
